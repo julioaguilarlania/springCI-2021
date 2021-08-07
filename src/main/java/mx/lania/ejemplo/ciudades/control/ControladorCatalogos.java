@@ -70,7 +70,7 @@ public class ControladorCatalogos {
                             .parallelStream()
                             .map(e -> e.getField() + ":" + e.getDefaultMessage())
                             .collect(Collectors.joining(",")),
-                    HttpStatus.BAD_REQUEST)
+                    HttpStatus.BAD_REQUEST);
         }
         try {
             oadCountries.save(country);
