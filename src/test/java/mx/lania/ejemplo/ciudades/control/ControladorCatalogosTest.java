@@ -2,9 +2,8 @@ package mx.lania.ejemplo.ciudades.control;
 
 import java.net.URISyntaxException;
 import org.assertj.core.api.Assertions;
-import org.junit.Test;
-import static org.junit.Assert.*;
 import org.junit.Before;
+import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
